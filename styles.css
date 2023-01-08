@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root
+{
+ --primary-color: #ffdb0d;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+nav
+{
+ background-color: var(--primary-color);
+ text-align:center;
+ padding: 2rem;
+ margin-bottom: 2rem;
+ font-size: 2rem;
+ font-weight: bold;
+ font-style: normal;
+
+}
+
+textarea
+{
+    border : 2px solid;
+    border-color: var(--primary-color);
+    border-radius: 5px;
+    display: block;
+    height:10vh;
+    width: 80%;
+    margin: 1rem auto; 
+    padding: 1rem 2rem;
+    font-size: larger;
+
+}
+
+button
+{
+    border: 2px solid black;
+    background-color: var(--primary-color);
+    display: block;
+    margin: 1rem auto;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.tag
+{
+    font-size: larger;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    max-width: 600px;
+    font-weight: bold;
+}
+
+#output
+{
+    border : 2px solid var(--primary-color);
+    height:10vh;
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+footer
+{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding-bottom: 0.5rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer div
+{
+    padding: 1rem;
+    padding-bottom:0.5rem ;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+footer p
+{
+    font-size: medium;
+    padding: 0.5rem;
+    max-width: 500px;
+    margin: auto;
+}
