@@ -2,7 +2,7 @@
 
 :root
 {
- --primary-color: #ffdb0d;
+ --primary-color: #f676df;
 }
 
 body {
@@ -56,6 +56,7 @@ button
     padding: 1rem;
     max-width: 600px;
     font-weight: bold;
+    text-align: center;
 }
 
 #output
